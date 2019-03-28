@@ -1,0 +1,37 @@
+/* game board table */
+body{
+  background-color: purple;
+}
+#header{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+#game {
+  height: 100%;
+  text-align: center;
+}
+td {
+  width: 150px;
+  height: 150px;
+  border: solid 1px white;
+}
+
+table{
+  display: inline-block;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  /* TODO: make into circles */
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+}
+
+/* TODO: make pieces red/blue,  depending on player 1/2 piece */
+
+/* column-top is table row of clickable areas for each column */
+
+/* TODO: make column-top row lighter and provide hover effect */
